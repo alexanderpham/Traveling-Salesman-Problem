@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nPbf2yGQ)
-## COMP 3625 Assignment 1
-
-Instructions here: [https://docs.google.com/document/d/1dFa4oiMCLI3u5AOb3bRUQV7e9Z7m49iIFsH789gEHTc/edit?usp=sharing](https://docs.google.com/document/d/1dFa4oiMCLI3u5AOb3bRUQV7e9Z7m49iIFsH789gEHTc/edit?usp=sharing)
+This project implements a solution to the Travelling Salesman Problem (TSP) using a hybrid algorithm that combines
+a Minimum Spanning Tree (MST) with a Nearest Neighbor (NN) search. The algorithm aims to find a good approximation
+of the shortest possible route that visits each city exactly once and returns to the starting point.
