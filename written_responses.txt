@@ -1,0 +1,24 @@
+Question 1:
+For a problem with 100 cities, how long would it take to exhaustively examine every possible route?
+State your assumptions and explain how you arrived at your answer.
+
+For a problem with 100 cities, the total number of possible routes would take 99! from (100-1)!. 
+Using a brute force approach, it can take a while to be able to find all the possible routes
+from a given city to another city excluding itself. This is especially true for large datasets.
+
+Question 2:
+What can you say about the time complexity of your approach? (ignore the time limit)
+
+For our approach of using MST and Nearest Neighour with informed search makes the algorithm ~ O(n^2logn) which
+makes it efficient but gets slower for bigger data. The O(n^2) is attributed by our tsp algorithm and O(logn) 
+is from constructing the MST. Using a dynamic rate that controls the balance between 
+the MST and nearest neighbor influence means that a higher value will prioritize on the MST than a
+lower alpha value which will be skewed towards closer cities. 
+
+Question 3:
+If your program was seen as an "agent program", which of the agent types discussed in class would it be?
+
+The type of agent would be a goal based agent because they're used to make decisions to help
+them acheieve a specific goal. In TSP, getting from start city and visting the other cities 
+and return to start with the shortest possible route. Therefore, for each of the decisions made
+by the agent, it must take action and determined by the goal of finding the shortest route possible. 
